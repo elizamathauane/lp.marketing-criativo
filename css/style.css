@@ -78,6 +78,12 @@ form [type="submit"] {
     font-weight: bold;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
 form [type="submit"]:hover {
     cursor:pointer;
 }
@@ -89,4 +95,8 @@ input{
     border-radius: 20px;
     border:none;
     font-size: 15px;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
 }
